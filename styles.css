@@ -1,0 +1,31 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center ;
+    background: linear-gradient(to right, #c31432, #240b36);
+    font-family: 'Lato', sans-serif;
+    font-size: 25px;
+    color: #fff;
+    text-shadow: 1px 1px 5px #240b36,
+                 1px 1px 5px #240b36,
+                 1px 1px 5px #240b36;
+}
+
+.title {
+    font-size: 55px;
+}
+
+.map {
+    opacity: .1;
+    transition: 0.5s;
+}
+
+.map:hover {
+    opacity: 1;
+    
+}
+
